@@ -1,0 +1,449 @@
+*{padding:0;margin:0;}
+		a{
+			text-decoration:none;
+			color:#fff;
+		}
+		/*头部分样式*/
+		#footer{
+			height:520px;
+			background:url(../banner-1.264332e.jpg) no-repeat;
+			background-size:cover;
+			position:relative;
+		}
+		#footer>.img{
+			
+			width:147px;height:76px;
+			border-bottom-left-radius:12%;
+			border-bottom-right-radius:12%;
+			background:#ffffff;
+			position:absolute;
+			top:0px;
+			left:216px;
+        }
+        #footer>ul>li>a{
+            color:#fff;
+            font-size:16px;
+        }
+		#footer>.img>a>img{
+			display:block;
+			height:50px;
+			margin: 10px auto;
+		}
+		#footer>ul{
+			width:776px;height:45px;
+			font-size:16px;
+			position:absolute;
+			top:30px;
+			left:730px;
+		}
+		#footer>ul>li{
+			list-style:none;
+			float:right;
+			margin-left:30px;
+		}
+		li+li::after{
+			content:"|";
+			margin-left:20px;
+			color:#fff;
+        }
+        /*轮播图部分*/
+        #big{
+            width: 100%;
+            height: 300px;
+            text-align: center;        
+        }
+        #big h2{
+            font-size: 36px;
+            font-weight: bold;
+            color: #504A4D;
+            padding-top: 40px;
+        }
+        #big h6{
+            font-size: 14px;
+            font-weight: bold;
+            color: #3D3D3D;
+        }
+        #big .lunbo{
+            height: 200px;
+            position: relative;
+        }
+        #big img{
+            position: absolute;
+        }
+        #big .left{
+            height: 23px;
+            top:50%;
+            left:14%;
+        }
+        #big .right{
+            height:23px;
+            top:50%;
+            left:88%;
+        }
+        #big .t1{
+            top:0px;
+            left:16%;
+        }
+        #big .t2{
+            top:0px;
+            left:40%;
+        }
+        #big .t3{
+            top:0px;
+            left:64%;
+        }
+        /*昨天卖出去多少件那个位置*/
+        #shuliang{
+            width: 100%;
+            height: 600px;
+        }
+        #shuliang .shang,.xia{
+            width: 80%;
+            margin: auto;
+        }
+        #shuliang .shang{
+            height: 190px;
+            background: url("../img/maohao.png") no-repeat center;
+            text-align: center;
+        }
+        #shuliang h6{
+            font-size:14px;
+            color: #200000;
+            padding-top:60px;
+        }
+        #shuliang h1{
+            font-size: 40px;
+            font-weight: bold;
+            color:#ff4200;  
+        }
+        /*下半部分轮播*/
+        #shuliang .xia{
+            height: 390px;
+        }
+        #shuliang .xia::after{
+            content:"";
+            display: block;
+            clear:both;
+        }
+        #shuliang .xia .hezi{
+            width:25%;
+            height:163px;
+            border: 1px solid #ddd;
+            border-radius:6px;
+            box-sizing: border-box;
+            float: left;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        #shuliang .xia .hezi .hezicontent{
+            height: 52%;
+           border-bottom:1px solid #ddd;
+           position: relative;
+        }
+        #shuliang .xia .hezi .hezicontent .wangming{
+            width: 199px;;
+           position: absolute;
+           top:-2px;
+           left:48px;
+            font-size: 14px;
+            color:#504A4D;
+        }
+        #shuliang .xia .hezi .hezicontent .pingjia{
+            position: absolute;
+           top:22px;
+           left:44px;
+            width: 199px;
+            
+            font-size: 16px;
+            color:#504A4D;
+        }
+        #shuliang .xia .hezi .hezicontent>img{
+            display: inline-block;
+            border-radius: 50%;
+            border-top-right-radius: 5%;
+        }
+        #shuliang .xia .hezi  .huigu{
+            height: 48%;
+            font-size: 14px;
+            color:#A1A1A1;
+        }
+        #shuliang .xia .hezi  .huigu>p{
+            padding-top: 15px;
+        }
+        /*按钮 我现在就要卖*/
+         #annui{
+            display:block;
+            width:232px;height:58px;
+            border: 1px solid #ddd;
+            background: url(../img/right.png) no-repeat 75% center;
+            background-size: 10px;
+            border-radius:35%;
+            color:#fc575b;
+            font-weight: bold;
+            margin: auto;
+            text-align: center;
+            line-height: 58px;
+            font-size: 16px;
+        }
+        /*专业团队部分*/
+        #tuandui{
+            width:100%;
+            background:#f4f6f7;
+            margin-top:20px; 
+        }
+        #tuandui .tuanbottom,.tuantop{
+            width:80%;
+            margin:auto;
+            text-align: center;
+        }
+        #tuandui .tuanbottom>ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            margin-top:20px;
+        }
+        #tuandui .tuanbottom>ul .title1{
+            font-size: 18px;
+            color: #504a4d;
+            padding-top: 10px;
+        }
+        #tuandui .tuanbottom>ul .title{
+            font-size: 14px;
+            color:#a4a4a4;
+            padding-top: 10px;
+        }
+        /*重新定义二手手机部分*/
+        #dingyi{
+            width:100%;
+            height:510px;
+            text-align: center;
+        }
+        /*定义h1公共字体类*/
+        .h1big{
+            padding-top: 50px;
+            font-size: 36px;
+            font-weight: bold;
+            color: #504A4D;
+        }
+        /*定义h6公共字体类*/
+        .h6sm{
+            color:#3D3D3D; 
+            font-size:14px;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+        #dingyi .dingyicontent{
+            width:80%;
+            height:293px;
+            margin:auto;
+            padding:40px 0;
+        }
+        #dingyi .dingyicontent .left1{
+            width:50%;height:286px;
+            border-right: 1px solid #ddd;
+            float:left;
+        }
+        #dingyi .dingyicontent .right1{
+            width:49%;height: 286px;
+            float: left;
+        }
+        /*清除浮动的影响*/
+        #dingyi::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        #dingyi .dingyicontent .right1 img{
+            border-radius: 50%;
+            border-top-right-radius: 5%;
+            vertical-align: middle;
+        }
+        #dingyi .dingyicontent .right1 .div1>div{
+            padding-right:230px;;
+        }
+        #dingyi .dingyicontent .right1 .div2>div{
+            padding-right: 290px;
+            margin-top:70px;
+        }
+        #dingyi .dingyicontent .right1 .div1>p{
+            margin:15px 0px;
+            font-size: 18px;
+            color:#504A4D;
+        }
+        #dingyi .dingyicontent .right1 .div2>p{
+            margin:15px 0px;
+            font-size: 18px;
+            color:#504A4D;
+            padding-left:9px;
+        }
+        /*轮播指示器也就是原点部分*/
+        #dingyi  .zhishiqi{
+            width:100%;
+            height: 30px;
+            float:left;
+            margin-top:20px;
+        }
+        .zhishiqi>ul{
+            width:100px;;
+            margin:auto;
+        }
+        .zhishiqi>ul>li{
+            list-style: none;
+            float: left;
+            height: 10px;width: 10px;
+            border-radius:50%;
+            
+            margin-left:5px;
+        }
+        .active{
+            background:#fc575b;
+        }
+        /*什么都能买模块*/
+        #shengqian{
+            width:100%;
+            height:1730px;
+        }
+        #shengqian>div{
+            width:80%;height:394px;
+            margin:auto;
+            margin-top:20px;
+        }
+        #shengqian .kuai{
+            float: left;
+            width:49%;
+            height:394px;
+            border:1px solid #ddd;
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
+        }
+        #shengqian .kuai>.biejing{
+            width: 100%;
+            height:100px;
+            background:url(../n_v2cefb571fd95d407cbbe94686846d0d88.png) no-repeat center -1%;
+            
+        }
+        #shengqian .kuai>.jieshao{
+            width: 100%;
+            height: 294px;
+            padding:0 10px;
+        }
+        #shengqian .kuai>.jieshao>div{
+            width:187px;  height:244px;
+            float: left;
+            margin-left: 15px;
+        }
+        #shengqian .kuai img{
+            border-radius: 50%;
+            border-top-right-radius: 5%;
+            vertical-align: middle;
+        }
+        .jiage{
+            color:#fc575b;
+        }
+        /*清除浮动*/
+        #shengqian .kuai::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        /*最有趣的人，都再转转模块*/
+        #youqu{
+            width:100%;
+            height:570px;
+            background:#f3f4f4;
+            margin-top:50px;
+        }
+       #youqu .tulunbo{
+           width:80%;height:430px;
+           margin:auto;
+           padding: 30px 0;
+       } 
+       #youqu .tulunbo>img{
+           margin-left:15px;
+       }
+       #youqu .tulunbo .tuzhishi{
+           width:80%;
+           margin:auto;
+       }
+       #youqu .tulunbo>ul{
+           width:240px;
+           height:30px;
+           margin:auto;
+           margin-top:20px;
+       }
+       #youqu .tulunbo>ul>li{
+           float:left;
+           list-style: none;
+           width:15px;
+           height: 15px;
+           border: 0;outline:0px;
+           margin-left:5px;
+           border-radius:50%;     
+       }
+       /*footer部分*/
+       #foooter .footertop{
+           width: 100%;
+           height:175px;
+           margin:auto;
+           border-bottom: 1px solid #ddd;
+           border-top:5px solid #fc575b;
+       }
+       #foooter .footertop>div{
+           height:141px;
+           float:left;
+         
+           vertical-align: middle;
+       }
+       #foooter .footertop .f1{
+           margin-left:215px;
+           padding-top:22px;
+       }
+       #foooter .footertop .f2{
+        margin-left:66px;
+        padding-top:31px;
+       }
+       #foooter .footertop .f3{
+           margin-left:95px;
+           padding-top:12px;
+       }
+       #foooter .footertop .f3>img{
+           display: block;
+           margin-top:9px;
+       }
+       #foooter .footertop .f4{
+           border:1px solid #fc575b;
+           border-radius:6px;
+           margin-left:50px ;
+           margin-top:15px;
+           height:107px;
+       }
+       #foooter .footertop .f4>img{
+           width: 105px;
+       }
+       /*最底部部分*/
+       #foooter .footerbottom{
+           width:80%;
+           height:233px;;
+           margin:auto;
+       }
+       #foooter .footerbottom p,a{
+           color:#454545;
+           font-size: 12px;
+       }
+       #foooter .footerbottom>div{
+           float:left;
+           width:40%;
+           height:200px;
+       }
+       #foooter .footerbottom .fb1{
+         
+           background:url(../filed-logo.b854102.png) no-repeat 30% 15%;
+           background-size:36px;
+           padding-top:30px;
+           padding-left:146px;
+           
+       }
+       #foooter .footerbottom .fb2{
+           text-align: left;
+           padding-top:30px;
+       }

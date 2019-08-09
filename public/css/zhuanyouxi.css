@@ -1,0 +1,193 @@
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration:none;
+}
+body{
+	background:#f8f8f8;
+}
+/*第一部分，登陆|注册 还有腾讯投资*/
+#header{
+	width:100%;
+	height:37px;
+	background:#f5f5f5;
+}
+#header a{
+	text-decoration:none;
+	color:#9c9c9c;
+	font-size:12px;
+	line-height:37px;
+}
+#header::after{
+	content:"",
+	display:block;
+	clear:both;
+}
+#header>div:first-child{
+	float:left;
+	color:#333;
+	line-height:37px;
+	font-size:12px;
+	margin-left:201px;
+}
+#header>div:last-child{
+	float:right;
+	margin-right:200px;
+}
+.span_red{
+	color:#e7563c;
+}
+.qianhui{
+	color:#9c9c9c;
+}
+/*logo部分*/
+#header1{
+	width:100%;
+	height:140px;
+	background:#fff;
+}
+#header1 .logo, .shouye, #tupian,#scition{
+	width:1200px;
+	height:88px;
+	margin:auto;
+}
+#header1 .shouye{
+	height:40px;
+	padding-top:0px;
+	border-bottom:1px solid #e7563c;
+}
+#header1 .logo img{
+	height:68px;
+	vertical-align:middle;
+}
+#header1 .shouye a{
+	display:inline-block;
+	text-decoration:none;
+	font-size:16px;
+	color:#333333;
+	
+}
+.shouye a:first-child{
+	width:235px;
+	height:40px;
+	border-radius:4px;
+	background:#e7563c;
+	color:#fff !important;
+	text-align:center;
+	line-height:40px;
+}
+.shouye a:last-child{
+	width:65px;height:17px;
+	margin-left:15px;
+}
+/*dnf鬼剑士图片部分*/
+#tupian{
+	width:685px;height:270px;
+	background-image: url('../img/pcbanner_0305.161663462af58bd5e513bbf7c674e76f.png');
+	margin:auto;
+	cursor:pointer;
+}
+/*主体物品售卖部分*/
+#scition{
+	height:1833px;
+	background:#fff;
+	margin-top:10px;
+	padding:0 10px;
+}
+#scition .zhu_content{
+	width:1160px;height:141px;
+	border-bottom:1px dashed #e7e7e7;
+	background:url("../img/n_v2fc18b74177084ac59234dd51413c3994_100_100 (1).jpg") no-repeat 3% center;
+	box-sizing:border-box;
+	padding:10px 0;
+	cursor:pointer;
+	position:relative;
+}
+#scition .zhu_content .title{
+	width:460px;height:100px;
+	position:absolute;
+	color:#333;
+	font-size:16px;
+	top:26%;
+	left:149px;
+}
+#scition .zhu_content .title a{
+	color:#333;
+}
+#scition .zhu_content .title .dan1{
+	width:68px;height:22px;
+	display:inline-block;
+	border:1px solid #e7563c;
+	border-radius:4px;
+	color:#e7563c;
+	margin-top:20px;
+}
+#scition .zhu_content .price{
+	color:#e7563c;
+	position:absolute;
+	top:30%;
+	left:55%;
+}
+#scition .zhu_content .price>span{
+	font-size:30px;
+	font-weight:bolder;
+}
+#scition .annui{
+    display:inline-block;
+	border-radius:5px;
+	width:120px;
+	height:34px;
+	border:1px solid #e7563c;
+	font-size:14px;
+	text-align:center;
+	line-height:34px;
+	font-weight:600;
+	color:#e7563c;
+	position:absolute;
+	top:45%;
+	left:90%;
+}
+#scition .annui:hover{
+	background:#e7563c;
+	color:#fff;
+}
+/*页码部分*/
+#yemadibu{
+	width:1200px;height:44px;
+	margin:auto;
+	margin-bottom:30px;
+}
+#yemadibu .yema{
+	width:160px;height:44px;
+	margin: 30px auto;
+	
+}
+#yemadibu .yema a{
+	display:inline-block;
+	width:48px;height:44px;
+	text-align:center;
+	line-height:44px;
+	border:1px solid #e6e7e8;
+	color:#969696;
+	font-size:12px;
+}
+.active{
+	background:#e7563c;
+}
+/*footer部分*/
+#footer{
+	width:100%;
+	height:300px;
+	background:#fff;
+	border:1px solid #ddd;
+	padding:35px 0;
+	color:#999999;
+	font-size:14px;
+}
+#footer>p{
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}

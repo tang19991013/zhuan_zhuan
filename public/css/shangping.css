@@ -55,64 +55,23 @@ a{
 }
 /*centent主体部分*/
 #centent{
-    width:100%;
-    background:#fff;
-    height: 2000px;
-}
-#centent .tonglan{
-    width:1200px;;
+    width:1200px;
+    height: 459px;
     margin:auto;
-    height:2000px;
+    background:#333;
 }
-#center .tonglan>.cententleft{
-    width:500px;
-    height:459px;   
+#centent .left{
+    width:880px;
+    height: 100%;
+    background:#666;
 }
-#center .cententleft .lefttop {
-    
-    
+#centent .left .left_centent{
+    width:350px;
+    height:300px;
+    float: left;
 }
-#center .tonglan .cententright{
-    width:500px;
-    height:459px;
+#centent .left .right_centent{
+    width:440px;
+    height:250px;
+    float:left;
 }
-.xiaoannui{
-    display: inline-block;
-    width:66px;height:22px;
-    border:1px solid #ffa559;
-    border-radius:5px;
-    outline:0;
-    text-align: center;
-    line-height: 22px;
-    color:#ffa559;
-    font-size: 12px;
-}
-.lianxi{
-    display: inline-block;
-    width:160px;height:45px;
-    color:#fff;
-    border-radius:5px;
-    background:#f00;
-    text-align:center;
-    line-height: 45px;
-}
-.woyao{
-    display: inline-block;
-    width:160px;height:45px;
-    color:#f00;
-    border-radius:5px;;
-    border:1px solid #f00;
-    text-align:center;
-    line-height: 45px;
-}
-.xiangyao{
-    display: inline-block;
-    width:78px;height:37px;
-    border:1px solid #ddd;
-    background:url() ;
-    color:#808080;
-    text-align:center;
-    line-height: 37px;
-    border-radius:5px;
-}
-

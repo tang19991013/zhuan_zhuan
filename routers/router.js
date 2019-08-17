@@ -9,7 +9,7 @@ var router=express.Router();
 router.get("/v1/zhuan_zhuan/user_login/:uname&:upwd",function(req,res){
 	var $uname=req.params.uname;
 	var $upwd=req.params.upwd;
-	sql="select uname,upwd from zhuan_user where uname=? and upwd=?";
+	var sql="select uname,upwd from zhuan_user where uname=? and upwd=?";
 	pool.query(sql,[$uname,$upwd],function(err,result){
 		if(err) throw err;
 		res.send("1");
@@ -17,3 +17,4 @@ router.get("/v1/zhuan_zhuan/user_login/:uname&:upwd",function(req,res){
 });
 //导出路由器
 module.exports=router;
+console.log("路由器已启动");

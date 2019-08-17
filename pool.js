@@ -11,3 +11,4 @@ var pool=mysql.createPool({
 });
 //导出路由器对象
 module.exports=pool;
+console.log("连接池已启动");

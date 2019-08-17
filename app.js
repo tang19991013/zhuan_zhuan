@@ -10,3 +10,4 @@ app.listen(8080);
 app.use(express.static('public'));
 //将路由器挂载到pro上
 app.use("/pro",router);
+console.log("服务器已启动");
